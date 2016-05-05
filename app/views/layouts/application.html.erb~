@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="/img/FAVICON(1).png">
+  <title>Digimerc solutions</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<meta name="google-site-verification" content="Bzva2Zh0VT7eNWNtTivyO_AwpiqMKub4-7wfCiAVw4o" />
+
+
+</head>
+<body>
+
+
+
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+
+
+
+
+
+
+
+<%= render :partial=>"layouts/header" %></td> 
+<%= yield %>
+<%= render :partial=>"layouts/footer" %></td> 
+</body>
+</html>

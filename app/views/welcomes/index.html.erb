@@ -1,0 +1,65 @@
+<html>
+<div id="index">
+
+<p id="notice"><%= notice %></p>
+
+<h4>List of contacts and feedbacks</h4>
+
+<table border="1">
+  <thead>
+    <tr>
+       <th>Sr.No</th>
+      <th>Name1</th>
+      <th>Email1</th>
+      <th>Services</th>
+      <th>Phone</th>
+      <th>Message</th>
+    <th>Date created</th>
+
+
+
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @welcome.reverse.each_with_index do |welcome,index| %>
+      <tr>
+
+ <td><%= index+ 1 %></td>
+        <td><%= welcome.name1 %></td>
+        <td><%= welcome.email1 %></td>
+        <td><%= welcome.submission_type %></td>
+        <td><%= welcome.phone %></td>
+        <td><%= welcome.message %></td>
+
+        <td><%= welcome.created_at.strftime(" %d %B %Y, %I:%M %p") %></td>
+
+
+        <td><%= link_to 'Show', welcome %></td>
+        <!--<td><%= link_to 'Edit', edit_welcome_path(welcome) %></td>-->
+        <td><%= link_to 'Destroy', welcome, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<!--<%= link_to 'New Welcome', new_welcome_path %>-->
+
+</div>
+</html>
+
+
+<style>
+
+#index{
+
+margin-top:8%;
+color:white;
+
+
+}
+
+</style>

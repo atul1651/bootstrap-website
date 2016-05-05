@@ -1,0 +1,53 @@
+
+
+
+<html>
+<div class="floated-content">
+
+<p>Thank for your interest in DIGIMERC SOLUTIONS ,we have received your feedback and we will back to you soon.</p>
+
+<a href="/home" class="btn btn-default">Home</a>
+      </div>
+      
+
+</body>
+</html>
+
+
+------------------------------------------------
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(3000);
+		});
+		});
+    </script>
+
+
+
+
+
+<style>
+
+.floated-content {
+    position: relative;
+    width:100%;
+    float: left;
+   font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 5%;
+    margin-top: 15%;
+    color: white;
+}
+
+</style>
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<html>
+<div class="floated-content">
+<h4>You have an errors while submitting the form , please check for the following errors.</h4>
+<p>* Name should not be blank.<p>
+<p>* Email shouls contain @ character.<p>
+<p>* phone should contain 0-9 numbers<p>
+<p>* Message shold be present<p>
+<p>* select a service<p>
+</div>
+
+</html>
+
+<style>
+
+
+.floated-content {
+    position: relative;
+    width:100%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+}
+
+</style>
+
+
+<script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+

@@ -1,0 +1,33 @@
+<html>
+<div class="floated-content">
+<h4>You have an errors while submitting the form , please fill the form correctly and submit it again</h4>
+
+</div>
+<%= button_to 'Back',:controller=>'welcomes',:action=>'home'%>
+</html>
+
+<style>
+
+
+.floated-content {
+    position: relative;
+    width:100%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+}
+
+</style>
+
+
+<script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+

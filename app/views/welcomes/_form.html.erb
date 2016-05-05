@@ -1,0 +1,49 @@
+<%= form_for(@welcome) do |f| %>
+  <% if @welcome.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@welcome.errors.count, "error") %> prohibited this welcome from being saved:</h2>
+
+      <ul>
+      <% @welcome.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name1 %><br>
+    <%= f.text_field :name1 %>
+  </div>
+  <div class="field">
+    <%= f.label :email1 %><br>
+    <%= f.text_area :email1 %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :message %><br>
+    <%= f.text_area :message %>
+  </div>
+  <div class="field">
+    <%= f.label :email2 %><br>
+    <%= f.text_area :email2 %>
+  </div>
+  <div class="field">
+    <%= f.label :name2 %><br>
+    <%= f.text_field :name2 %>
+  </div>
+  <div class="field">
+    <%= f.label :content %><br>
+    <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.label :keyword %><br>
+    <%= f.text_area :keyword %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

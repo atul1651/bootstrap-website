@@ -1,0 +1,276 @@
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=800,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!--<p>
+
+<a href="JavaScript:newPopup('http://www.quackit.com/javascript/examples/sample_popup.cfm');">Open a popup window</a>
+
+</p>-->
+
+<html>
+  <!-- footer -->  
+  <footer id="aa-footer">
+    <!-- footer bottom -->
+    <div class="aa-footer-top">
+
+        <div class="row">
+        <div class="col-md-12">
+          <div class="aa-footer-top-area">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <h3>Main Menu</h3>
+
+                    <p><a href="/">HOME</a></p>
+                    <p><%= link_to 'ABOUT',:controller=>'welcomes',:action=>'about'%></p>
+                    <p><%= link_to 'BLOG',:controller=>'welcomes',:action=>'blogs'%></p>
+                    <p><%= link_to 'CAREERS',:controller=>'welcomes',:action=>'careers'%></p>
+                    <p><%= link_to 'CONTACT',:controller=>'welcomes',:action=>'contact'%></p>
+
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>Services</h3>
+
+                     <p> <%= link_to 'SEO',:controller=>'welcomes',:action=>'seo'%></p>
+                      <p><%= link_to 'SMM',:controller=>'welcomes',:action=>'smm'%></p>
+                      <p><%= link_to  'WEB DEVELOPMENT',:controller=>'welcomes',:action=>'web_development'%></p>
+                      <p><%= link_to 'CONTENT MARKETING',:controller=>'welcomes',:action=>'content_marketing'%></p>
+                      <p><%= link_to 'ORM',:controller=>'welcomes',:action=>'orm'%></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>social links</h3>
+             
+ 	   <div class="container">
+            <div class="row">
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://www.facebook.com/digimercsolutions/');" do %>
+
+				<%= image_tag ('about/Facebook.png') %>
+			    <% end %>
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://www.youtube.com/channel/UCJeyTbd1iwivlVUDX0T8MNg');" do %>
+
+
+				<%= image_tag ('about/Youtube.png')  %>
+
+			    <% end %>
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://twitter.com/digimercdigital');" do %>
+
+
+				<%= image_tag ('about/Twitter.png') %>
+			    <% end %>
+
+
+
+
+            </div> 
+
+          <div class="row">
+			    <%= link_to "JavaScript:newPopup('https://www.linkedin.com/company/digimerc-solutions');" do %>
+
+
+				<%= image_tag ('about/Linked-in.png')  %>
+			    <% end %>
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://plus.google.com/u/0/111316807990651206263');" do %>
+
+
+
+				<%= image_tag ('about/gp.png') %>
+			    <% end %>
+
+
+ 
+                               </div>  
+                               </div>  
+
+       
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>Contact Us</h3>
+                    <address>
+                      <p>2nd Floor, 49/2B/3, "VAIBHAV" Building,</p>
+                      <p> Maharashtra Co-op Housing Society,</p>
+                      <p> Pune - Satara Road, Parvati, Pune,</p>
+		      <p>Maharashtra 411009 </p>
+               
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+     </footer>
+  <!-- / footer -->
+  </html>
+
+
+<style>
+/*==================
+ FOOTER SECTION
+====================*/
+img{
+
+outline:none;
+
+}
+
+a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background:none;
+    padding: 0px;
+
+}
+
+
+#aa-footer {
+  margin-top:2%;
+  background-color: #222;
+  display: inline;
+  float: left;
+  width: 100%;
+position:static;
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+}
+#aa-footer .aa-footer-top {
+  display: inline;
+  float: left;
+  /*padding: 50px 0;*/
+  width: 100%;
+  min-height: 100px;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget {
+  display: block;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget h3 {
+  color: #fff;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a {
+  color: red;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:hover, #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:focus {
+  color: #fff;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p {
+  margin-bottom: 5px;
+  color:white;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p span {
+  margin-right: 5px;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a {
+  border: 1px solid #888;
+  color: #888;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 8px;
+  padding: 2px 0;
+  text-align: center;
+  width: 35px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+#aa-footer .aa-footer-bottom {
+  border-top: 1px solid #333;
+  display: inline;
+  float: left;
+  padding: 15px 0;
+  width: 100%;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area > p {
+  color: #888;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area > p a {
+  color: #888;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment {
+  float: right;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span {
+  color: #888;
+  margin-left: 8px;
+}
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span:hover {
+  color: #fff;
+}
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p {
+    width: 100%;
+    text-align: center;
+  }
+
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+</style>

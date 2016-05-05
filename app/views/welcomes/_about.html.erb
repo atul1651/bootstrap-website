@@ -1,0 +1,171 @@
+<script>
+
+
+function validation(){
+
+	if(document.getElementById("text1").value==""){
+	alert("Email is mandatory");
+		return false;
+	}
+	
+	else{
+				return true;
+			}
+			}
+
+
+
+function ValidateEmail(uemail)  
+{  
+if(document.getElementById("text1").value==""){
+	alert("Email is mandatory");
+		return false;
+}
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+if(uemail.value.match(mailformat))  
+{  
+return true;  
+}  
+else  
+{  
+alert("You have entered an invalid email address!");  
+uemail.focus();  
+return false;  
+}  
+}  
+
+    
+</script>
+
+
+</script>
+
+<html>
+<div class="floated-content"><h3>ABOUT US:</h3>
+<p>“If you can't fly then run,</p>
+<p>If you can't run then walk,</p>
+<p>If you can't walk then crawl,</p>
+<p>But whatever you do you have to keep moving forward.”</p>
+<p><span id="martin">- Martin Luther King</span></p> 
+<p>Digital Media is here. It's not going away, not a passing fad. So be where your customers are in social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media,being digital is the only platform in human history which allows people to really maintain rich connections with much larger number of people.</p>
+<p>As a social media marketing agency, Digimerc has a clear vision about the science behind what makes something shareable and has a smart way to implement the same.
+Today Digimerc is a new born baby. We are not that large, but filled with people experienced by their knowledge and not by age. We are a fast growing team of young and passionate digital marketing professionals, ready to swiftly take on any number challenges brought to us. We are an innovation obsessed group of people that craft wonders for our clients. We believe in learning at each step.</p>
+<p>Whilst we're grinding away, we're acutely, energetically, madly, hysterically and insanely infatuated with everything that we do. Our work station is about "CREATIVITY is insight having some good times."</p>
+<p>We help your brand to be heard and shared. Our advanced digital media methodology includes a top to bottom investigation of your brand and making customized content taking into account which stage will probably give you favorable position.</p>
+      </div>
+      <!-- ends floated content -->
+      <!-- sidebar -->
+      <aside id="sidebar">
+        <ul><h5>Form of enquiry</h5>
+     <%= form_for(@welcome) do |f| %>
+
+    <%= f.text_field :email2,:placeholder=>"Email address",:id=>"text1",:onblur=>"lastname(this);" %>
+            <span id="submit-button"><%= f.submit 'Submit' %></span>
+     <% end %>
+        
+     
+        </ul>
+        <em id="corner"></em> </aside>
+      <!-- ENDS sidebar -->
+    </div>
+    <!--  page content-->
+  </div>
+</div>
+<!-- ENDS MAIN -->
+
+</body>
+</html>
+
+
+<!--<p class="navbar-text pull-right">
+<% if user_signed_in? %>
+  Logged in as <strong><%= current_user.email %></strong>.
+  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+<% else %>
+  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+<% end %>-->
+
+
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+
+
+
+
+
+<style>
+
+span#submit-button{
+
+margin-left:25%;
+}
+
+
+input#welcome_email2 {
+    text-align: center;
+    color: #000;
+    width: 160px;
+}
+
+input {
+    border-radius: 0px;
+    margin-top: 5px;
+    color: #000;
+}
+
+span#martin{
+
+
+margin-left:30%;
+
+}
+#sidebar {
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 45px 0px 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    box-shadow: 2px 5px 2px 3px white !important;
+    color: white;
+}
+
+
+
+.floated-content {
+    position: relative;
+    width:70%;
+    float: left;
+margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+}
+aside{
+
+display: block;
+
+}
+
+
+ul{
+
+margin-left:-20px;
+}
+
+
+</style>
+
+
+

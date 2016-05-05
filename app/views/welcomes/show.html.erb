@@ -1,0 +1,68 @@
+<html>
+<div id="show">
+
+<p id="notice"><%= notice %></p>
+<% if @welcome.email1.present? %>
+<p>
+  <strong>Name1:</strong>
+  <%= @welcome.name1 %>
+</p>
+
+<p>
+  <strong>Email1:</strong>
+  <%= @welcome.email1 %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @welcome.phone %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @welcome.message %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @welcome.submission_type %>
+</p>
+<!--<p>
+  <strong>Name2:</strong>
+  <%= @welcome.name2 %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @welcome.content %>
+</p>
+
+<p>
+  <strong>Keyword:</strong>
+  <%= @welcome.keyword %>
+</p>-->
+
+
+<%= link_to 'Back', welcomes_path %>
+
+
+<% else %>
+<p>
+  <strong>Email2:</strong>
+  <%= @welcome.email2 %>
+</p>
+<%= link_to 'Back', welcomes1_path %>
+<% end %>
+
+
+
+</html>
+
+<style>
+#show{
+color:white;
+margin-top: 10%;
+
+
+}
+</style>

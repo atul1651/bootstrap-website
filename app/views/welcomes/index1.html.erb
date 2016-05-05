@@ -1,0 +1,61 @@
+<html>
+<div id="index">
+
+<p id="notice"><%= notice %></p>
+
+<h4>List of subscribers</h4>
+
+<table border="1">
+  <thead>
+    <tr>
+
+
+
+      <th>Sr.No</th>
+      <th>Email2</th>
+
+      <th>Date created</th>
+
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @welcome.reverse.each_with_index do |welcome,index| %>
+      <tr>
+
+
+        <td><%= index+1 %></td>
+
+
+        <td><%= welcome.email2 %></td>
+
+        <td><%= welcome.created_at.strftime(" %d %B %Y, %I:%M %p") %></td>
+
+        <td><%= link_to 'Show', welcome %></td>
+        <!--<td><%= link_to 'Edit', edit_welcome_path(welcome) %></td>-->
+        <td><%= link_to 'Destroy', welcome, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+
+</div>
+</html>
+
+
+<style>
+
+#index{
+
+margin-top:10%;
+color:white;
+
+
+}
+
+</style>

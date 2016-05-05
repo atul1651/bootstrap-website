@@ -1,0 +1,128 @@
+<html>
+<div class="floated-content">
+
+<h4>Are you excited about what’s trending HOT on Social Media?</h4>
+<%= image_tag 'about/Trending-now-inside-image.png' %>
+<p>Like each group or social media manager, one sort of social networking substance you're prone to share is posts that play on what's going on in the world– the patterns of the day, week, or month. To discover content for these posts, large portion of you are presumably swinging to Twitter's Trending Topics that well-disposed little segment on the left-hand side of your program when you visit Twitter.com, and something that can be customized (or not) to what Twitter supposes you'll be most inspired by. </p>
+<p>We concede that trending topics are truly convenient with regards to rousing content, but at the same time it's the same place every other brand is searching for substance thoughts. Exhausting! Today, we have places where you can search for drifting stories to move you. </p>
+<p>1.) <b>Google Trends :</b> This device has been around for a considerable length of time, yet it's the most needed stage to know the most recent online pattern as it has another method for showing slanting pursuits: a visualizer that permits you to view 1, 2, or up to 25 concurrent drifting hunts – adaptable to show one nation or overall patterns. Watch the patterns flip by and click the one you're keen on to see the Google query items. Then again, you can see the Google Trends Top Charts page and bore down on a particular subject you think your group may discover pertinent. </p>
+<p>2.) <b>Using a Social Media Analytics Tool:</b> Social media advertising stages frequently have worked in information investigation instruments that permit you to view patterns in social initially. Sending out information from your social stage into an apparatus can give you a feeling of what the slanting terms are. For a case uberVU is a constant online networking promoting stage that shows brands what they have to know, now. The uberVU naturally breaks down all your image's online networking information to show you bits of knowledge like influencers, stories, and patterns that you can influence - all progressively. With uberVU, you can go past this and search for the catchphrases in a continuous discussion map. The uberVU's selective Signals include really surfaces slanting stories consequently – progressively! Arrange your dashboard to send signals specifically to your inbox for every day or as-it-happens motivation, or perspective them in the stage as you go about your day by day online networking assignments. </p>
+<p>3.) <b>Google+:</b> If you're overseeing group/online networking for a tech-arranged brand, take a stab at looking at the "What's Hot" section of Google+! This minimal known segment offers slanting hashtags, famous posts and individuals/pages it supposes you may discover intriguing – impeccable feed for sharing or making new content. </p>
+<p>4.) <b>Buzzfeed :</b> With more than simply charming puppy pictures and spoiler-filled records, Buzzfeed’s pattern segment gives perusers a view at what's prominent all alone webpage (accommodating for rousing popular society related social substance) and in addition what's famous around whatever remains of the web. Now and then, genuine, hard-hitting news stories even appear in the rundown! </p>
+<p>5.) <b>Reddit :</b> Also a takeoff from the normal Twitter swarm, Reddit is a spot where jokes, news, and fascinating goodies from over the web are collected and positioned by number of individuals who have up(or down) voted the post or remark connected with it. In case need another image to fuel your substance, Reddit is an incredible spot to look. </p>
+<p>So what are you sitting tight for how about we discover what's humming hard on your online networking bed.</p>
+
+<a href="/blogs" class="btn btn-default">Go to blogs</a>
+
+</div>
+
+
+
+      </div>
+      <!-- ends floated content -->
+      <!-- sidebar -->
+      <aside id="sidebar">
+        <ul><h5>Form of enquiry</h5>
+     
+         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
+      <button type="submit" class="subscribe-submit">Subscribe</button>
+
+        
+     
+        </ul>
+        <em id="corner"></em> </aside>
+      <!-- ENDS sidebar -->
+    </div>
+    <!--  page content-->
+  </div>
+</div>
+<!-- ENDS MAIN -->
+
+</body>
+</html>
+
+
+------------------------------------------------
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+
+
+--------------------------------------------==----
+
+
+<style>
+#timeline,#timeline1,#timeline2{
+    padding-top: 13%;
+    margin-top: -10%;
+
+}
+span#undrl{
+
+text-decoration:underline;
+
+}
+#sidebar {
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 45px 0px 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+box-shadow: 2px 5px 2px 3px white !important;
+color: white;
+}
+
+
+
+.floated-content {
+    position: relative;
+    width:70%;
+    float: left;
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+margin-left: 5%;
+margin-top: 10%;
+color: white;
+}
+aside{
+
+display: block;
+
+}
+
+
+ul{
+
+margin-left:-20px;
+}
+
+
+input.subscribe-input{
+text-align: center;
+width:170px;
+color: black;
+}
+
+button.subscribe-submit{
+    border-radius:0px;
+margin-left: 40px;
+margin-top:5px;
+color: black;
+}
+</style>
+
+
+
+
+
+
+
+
