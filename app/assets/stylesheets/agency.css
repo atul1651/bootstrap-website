@@ -686,7 +686,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 186px;
+    height: 150px;
 }
 
 section#contact .form-control:focus {

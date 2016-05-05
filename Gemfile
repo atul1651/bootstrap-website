@@ -5,8 +5,6 @@ source 'https://rubygems.org'
 gem 'therubyracer', platforms: :ruby
 gem 'rails_12factor', group: :production
 
-
-
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
