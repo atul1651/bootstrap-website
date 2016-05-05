@@ -74,7 +74,7 @@
 <br>
       <!-- ends floated content -->
       <!-- sidebar -->
-      <aside id="sidebar">
+      <!--<aside id="sidebar">
         <ul><h5>Form of enquiry</h5>
      
          <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
@@ -83,7 +83,7 @@
         
      
         </ul>
-        <em id="corner"></em> </aside>
+        <em id="corner"></em> </aside>-->
       <!-- ENDS sidebar -->
     </div>
     <!--  page content-->
@@ -129,54 +129,18 @@ span#undrl{
 text-decoration:underline;
 
 }
-#sidebar {
-    position: relative;
-    width: 200px;
-    float: left;
-    padding: 45px 0px 30px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 30px;
-box-shadow: 2px 5px 2px 3px white !important;
-color: white;
-}
-
-
 
 .floated-content {
     position: relative;
-    width:70%;
+
     float: left;
 font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
-margin-left: 5%;
+padding-left:5%;
+padding-right:5%;
 margin-top: 10%;
 color: white;
 }
-aside{
 
-display: block;
-
-}
-
-
-ul{
-
-margin-left:-20px;
-}
-
-
-input.subscribe-input{
-text-align: center;
-width:170px;
-color: black;
-}
-
-button.subscribe-submit{
-    border-radius:0px;
-margin-left: 40px;
-margin-top:5px;
-color: black;
-}
 </style>
 
 

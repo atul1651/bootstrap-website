@@ -1,0 +1,61 @@
+<html>
+<div id="index">
+
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Welcomes</h1>
+
+<table border="1">
+  <thead>
+    <tr>
+
+
+      <th>Sr.No</th>
+
+      <th>Email2</th>
+
+
+
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @welcomes.index.each do |index,welcome| %>
+      <tr>
+        <td><%= index+1 %></td>
+
+
+
+
+        <td><%= welcome.email2 %></td>
+
+
+
+        <td><%= link_to 'Show', welcome %></td>
+        <td><%= link_to 'Edit', edit_welcome_path(welcome) %></td>
+        <td><%= link_to 'Destroy', welcome, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Welcome', new_welcome_path %>
+
+</div>
+</html>
+
+
+<style>
+
+#index{
+
+
+color:white;
+
+
+}
+
+</style>
