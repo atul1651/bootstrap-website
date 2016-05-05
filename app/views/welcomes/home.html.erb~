@@ -529,6 +529,13 @@ margin-top:200px;
 
 <style>
 
+section#contact .form-group textarea.form-control{
+
+    height: 150px;
+
+
+}
+
 select#welcome_submission_type{
 
 text-align:center;
