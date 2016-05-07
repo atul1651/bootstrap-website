@@ -1,5 +1,3 @@
-
-
 <html>
 <div class="floated-content"><h3>ABOUT US:</h3>
 <p>“If you can't fly then run,</p>
@@ -15,20 +13,7 @@ Today Digimerc is a new born baby. We are not that large, but filled with people
       </div>
       <!-- ends floated content -->
       <!-- sidebar -->
-      <!--<aside id="sidebar">
-        <ul><h5>Form of enquiry</h5>
-     <%= form_for(@welcome) do |f| %>
-
-    <%= f.text_field :email2,:placeholder=>"Email address" %>
-
-            <span id="submit-button"><%= f.submit 'Submit' %></span>
-     <% end %>
-        
-     
-        </ul>
-        <em id="corner"></em>
-
- </aside>-->
+      
       <!-- ENDS sidebar -->
     </div>
     <!--  page content-->
@@ -58,16 +43,32 @@ Today Digimerc is a new born baby. We are not that large, but filled with people
 
 <style>
 span#martin{
+
+
 margin-left:30%;
+
 }
+
 .floated-content {
-  position: relative;
-  width:100%;
+    position: relative;
+
+    float: left;
 padding-left:5%;
 padding-right:5%;
     margin-top: 10%;
     color: white;
 font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+}
+aside{
+
+display: block;
+
+}
+
+
+ul{
+
+margin-left:-20px;
 }
 
 
