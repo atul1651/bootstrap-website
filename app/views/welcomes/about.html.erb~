@@ -1,5 +1,5 @@
 <html>
-<div class="floated-content"><h3>ABOUT US:</h3>
+<div class="floated-content"><h3><span id="sub-head">ABOUT US:</span></h3>
 <p>“If you can't fly then run,</p>
 <p>If you can't run then walk,</p>
 <p>If you can't walk then crawl,</p>
@@ -42,6 +42,14 @@ Today Digimerc is a new born baby. We are not that large, but filled with people
 
 
 <style>
+
+
+span#sub-head{
+
+color:#978F89;
+
+
+}
 span#martin{
 
 
@@ -56,8 +64,10 @@ margin-left:30%;
 padding-left:5%;
 padding-right:5%;
     margin-top: 10%;
-    color: white;
-font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+
+color:#B46D33;
+  font-family:Georgia;
+font-size: 16px;
 }
 aside{
 

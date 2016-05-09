@@ -1,7 +1,7 @@
 <html>
 
 
-      <div class="floated-content"><h3>WEB DEVELOPMENT</h3>
+      <div class="floated-content"><h3><span id="sub-head">WEB DEVELOPMENT</span></h3>
 <p>
 Your website deserves the best; after all, it is the internet advertising billboard for you and your company. Whether you're ready to start today, or still need some guidance. We'll find the right solution for you.
 </p>
@@ -50,7 +50,12 @@ content precedes design and design in the absence of content is not design, its 
     </script>
 
 <style>
+span#sub-head{
 
+color:#978F89;
+
+
+}
 .floated-content {
     position: relative;
 
@@ -58,8 +63,10 @@ content precedes design and design in the absence of content is not design, its 
   padding-left: 5%;
 padding-right:5%;
     margin-top: 10%;
-    color: white;
-font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+
+ color:#B46D33;
+    font-family:Georgia;
+    font-size: 16px;
 }
 
 </style>

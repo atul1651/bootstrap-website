@@ -1,7 +1,7 @@
 <html>
 
 
-      <div class="floated-content"><h3>ORM - Online Reputation Management</h3>
+      <div class="floated-content"><h3><span id="sub-head">ORM - Online Reputation Management</span></h3>
 <p>
 Brand is worthless if it doesn't connect with the right audiences in a relevant way, and, when you are thinking to showcase your relevant presence in today's online society, then nothing stays hidden for too long. 
 </p>
@@ -40,6 +40,12 @@ We would screen the online pulse for your brand, deal with the content to suppor
 
 <style>
 
+span#sub-head{
+
+color:#978F89;
+
+}
+
 body p {
     margin-bottom: 21px;
 }
@@ -48,11 +54,13 @@ body p {
     position: relative;
 
     float: left;
-font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
+
 padding-left: 5%;
 padding-right:5%;
 margin-top: 10%;
-color: white;
+ color:#B46D33;
+    font-family:Georgia;
+    font-size: 16px;
 }
 
 </style>

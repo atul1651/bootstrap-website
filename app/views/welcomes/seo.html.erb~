@@ -1,6 +1,6 @@
 <html>
 
-      <div class="floated-content"><h3>SEO - Search Engine Optimization</h3>
+      <div class="floated-content"><h3><span id="sub-head">SEO - Search Engine Optimization</span></h3>
 <p>
 A web page without links is like an uncharted island. It's sitting there, right in the middle of the ocean, but most people don't know it's there. The island could be littered with diamonds. The plants that grow there might heal every disease known to human. None of that matters if no one knows the island is there.</p>
 <p>Search engine optimization in a lay man’s language is about trying to rank higher in search engines. To rank higher you make changes to your website that make it easier for search engines to understand your content. Also, it can mean getting links from other websites. It is indeed sounding very easy than it is in reality. </p>
@@ -45,17 +45,24 @@ A web page without links is like an uncharted island. It's sitting there, right 
 
 
 <style>
+span#sub-head{
+
+color:#978F89;
 
 
-
-.floated-content {
-    position: relative;
-    width:70%;
-    float: left;
-font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
-margin-left: 5%;
-margin-top: 10%;
-color: white;
 }
+
+
+	.floated-content {
+	position: relative;
+
+	float: left;
+
+	margin-left: 5%;
+	margin-top: 10%;
+	color:#B46D33;
+	font-family:Georgia;
+	font-size: 16px;
+	}
 
 </style>

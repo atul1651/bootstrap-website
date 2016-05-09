@@ -37,12 +37,9 @@ $(function(){
   </head>
   <body>
 
+
+
 <div class="floated-content">
-<h4>Find us on google:</h4>
-    <div id="map"></div>
-    
-</div>
- 
 <html>
  <%= form_for(@welcome) do |f| %>
   <% if @welcome.errors.any? %>
@@ -114,13 +111,24 @@ $(function(){
     </section>
   <% end %>
   
-
+</div>
 
         </html>
 
 
 <style>
 
+section#contact .section-heading{
+margin-top:10%;
+
+
+}
+.floated-content {
+    position: relative;
+
+font-family:Georgia;
+    font-size: 16px;
+}
 
 section#contact .form-group textarea.form-control{
 
