@@ -7,22 +7,22 @@
 
 	  <div id="logo"><a href="/home"><%= image_tag "about/LOGO.png",:width => 240, :height => 100 %></a></div>
 
-	    <nav> <label for="drop" class="toggle">Menu</label>
+	    <nav> <label for="drop" class="toggle">MENU</label>
 
 	  <input type="checkbox" id="drop" />
 
 	  <ul class="menu">
 
-	    <li><a href="/home">Home</a></li>
-	    <li><a href="/about">About</a></li>
+	    <li><a href="/home">HOME</a></li>
+	    <li><a href="/about">ABOUT</a></li>
 
 	    <li>
 
 	      <!-- First Tier Drop Down -->
 
-	      <label for="drop-1" class="toggle">Services +</label>
+	      <label for="drop-1" class="toggle">SERVICES +</label>
 
-	      <a href="#">Service</a>
+	      <a href="#">SERVICE</a>
 
 	      <input type="checkbox" id="drop-1"/>
 
@@ -32,9 +32,9 @@
 
 	        <li><a href="/smm">SMM</a></li>
 
-	        <li><a href="/web_development">Web_Development</a></li>
+	        <li><a href="/web_development">WEB_DEVELOPMENT</a></li>
 
-                 <li><a href="/content_marketing">Content_Marketing</a></li>
+                 <li><a href="/content_marketing">CONTENT_MARKETING</a></li>
 
 	        <li><a href="/orm">ORM</a></li>
 
@@ -88,11 +88,11 @@
 
 	    </li>-->
 
-	    <li><a href="/blogs">Blogs</a></li>
+	    <li><a href="/blogs">BLOGS</a></li>
 
-	    <li><a href="/careers">Careers</a></li>
+	    <li><a href="/careers">CAREERS</a></li>
 
-	    <li><a href="/contact">Contact</a></li>
+	    <li><a href="/contact">CONTACT</a></li>
 
 
 
@@ -237,7 +237,7 @@ nav {
 
 	nav ul ul li {
 
-	  width: 170px;
+	  /*width: 170px;*/
 
 	  float: none;
 
