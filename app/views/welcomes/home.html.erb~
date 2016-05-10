@@ -304,7 +304,7 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 
 				<div class="col-md-4">
 		 <%= link_to "/contact" do %>
-				<%= image_tag 'about/plus.png'%>
+				<%= image_tag 'about/plus.png',:title=>"more",:alt=>"more"%>
 				<% end %>
 				</div>
 			</div>
