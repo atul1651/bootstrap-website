@@ -157,7 +157,7 @@ Offices&emsp; :&emsp;Pune&emsp; |&emsp;Navi Mumbai&emsp; |&emsp;Gurgaon&emsp; |&
 <%= link_to "http://insigniagroup.in" do %>
 <%= image_tag 'about/insg-logo.png' %>
 <% end %>
-11111
+
 </span>
 
 </div>
