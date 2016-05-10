@@ -63,7 +63,7 @@ function newPopup(url) {
 
 			    <%= link_to "JavaScript:newPopup('https://www.facebook.com/digimercsolutions/');" do %>
 
-				<%= image_tag ('about/Facebook.png') %>
+				<%= image_tag ('about/Facebook.png'),:alt=>"Facebook",:title=>"Facebook" %>
 			    <% end %>
 
 
@@ -71,7 +71,7 @@ function newPopup(url) {
 			    <%= link_to "JavaScript:newPopup('https://www.youtube.com/channel/UCJeyTbd1iwivlVUDX0T8MNg');" do %>
 
 
-				<%= image_tag ('about/Youtube.png')  %>
+				<%= image_tag ('about/Youtube.png'),:alt=>"You tube",:title=>"You tube"  %>
 
 			    <% end %>
 
@@ -80,7 +80,7 @@ function newPopup(url) {
 			    <%= link_to "JavaScript:newPopup('https://twitter.com/digimercdigital');" do %>
 
 
-				<%= image_tag ('about/Twitter.png') %>
+				<%= image_tag ('about/Twitter.png'),:alt=>"Twitter",:title=>"Twitter" %>
 			    <% end %>
 
 
@@ -92,7 +92,7 @@ function newPopup(url) {
 			    <%= link_to "JavaScript:newPopup('https://www.linkedin.com/company/digimerc-solutions');" do %>
 
 
-				<%= image_tag ('about/Linked-in.png')  %>
+				<%= image_tag ('about/Linked-in.png'),:alt=>"linked In",:title=>"linked In"  %>
 			    <% end %>
 
 
@@ -101,7 +101,7 @@ function newPopup(url) {
 
 
 
-				<%= image_tag ('about/gp.png') %>
+				<%= image_tag ('about/gp.png'),:alt=>"google plus",:title=>"google plus" %>
 			    <% end %>
 
 
@@ -155,7 +155,7 @@ Offices&emsp; :&emsp;Pune&emsp; |&emsp;Navi Mumbai&emsp; |&emsp;Gurgaon&emsp; |&
 
 
 <%= link_to "http://insigniagroup.in" do %>
-<%= image_tag 'about/insg-logo.png' %>
+<%= image_tag 'about/insg-logo.png',:alt=>"Insignia group",:title=>"Insignia group" %>
 <% end %>
 
 </span>

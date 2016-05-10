@@ -5,7 +5,7 @@
 
 
 
-	  <div id="logo"><a href="/home"><%= image_tag "about/LOGO.png",:width => 240, :height => 100 %></a></div>
+	  <div id="logo"><a href="/home"><%= image_tag "about/LOGO.png",:width => 240, :height => 100,:alt=>"Digital Marketing Company",:title=>"Digimerc Solutions" %></a></div>
 
 	    <nav> <label for="drop" class="toggle">MENU</label>
 
