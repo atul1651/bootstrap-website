@@ -1,6 +1,10 @@
 <html>
-<div class="floated-content">
+<title>Blog | Digital Marketing Myths</title>
 
+<head>
+<meta name="description" lang="en" content="Digimerc Soltution promote your product and services with digital marketing myths.">
+<div class="floated-content">
+</head>
 <h4><span id="sub-head">Most Entrepreneurs bear some Digital Marketing Myths in their minds</span></h4>
 
 <%= image_tag 'about/Digital-marketing-inside-image.png' %>
