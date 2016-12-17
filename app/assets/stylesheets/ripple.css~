@@ -1,0 +1,55 @@
+
+div#widget{
+
+margin-top:5%;
+
+}
+.col-md-4 {
+    width: 33.3333%;
+margin-top:11%;
+}
+
+.col-md-8 {
+    width: 66.6667%;
+margin-top:4%;
+}
+span#sub-head{
+
+color:#978F89;
+
+
+}
+span#martin{
+
+
+margin-left:30%;
+
+}
+
+.floated-content {
+    position: relative;
+    float: left;
+ padding-left:5%;
+padding-right:5%;
+    margin-top: 10%;
+
+color:#B46D33;
+  font-family:Georgia;
+font-size: 16px;
+}
+aside{
+
+display: block;
+
+}
+
+
+ul{
+
+margin-left:-20px;
+}
+
+
+
+
+

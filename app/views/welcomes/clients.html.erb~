@@ -1,0 +1,106 @@
+
+<html>
+<head>
+<title>Clients | Digimerc Solutions</title>
+<meta name="description" lang="en" content="Digimerc solution is one of the leading digital marketing company. So we offer SEO Analyst, Web Developer, and Content Writer in Pune.">
+</head>
+<div class="floated-content"><h3><span id="sub-head">Clients</span></h3>
+
+<h6>Page is coming soon......</h6>
+
+
+      </div>
+<br>
+      <!-- ends floated content -->
+      <!-- sidebar -->
+      <!--<aside id="sidebar">
+        <ul><h5>Form of enquiry</h5>
+     
+         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
+      <button type="submit" class="subscribe-submit">Subscribe</button>
+
+        
+     
+        </ul>
+        <em id="corner"></em> </aside>-->
+      <!-- ENDS sidebar -->
+    </div>
+    <!--  page content-->
+  </div>
+</div>
+<!-- ENDS MAIN -->
+
+</body>
+</html>
+
+
+------------------------------------------------
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+
+
+--------------------------------------------==----
+
+
+<style>
+
+span#sub-head{
+
+color:#978F89;
+
+}
+
+span#informa{
+
+color:#978F89;
+font-weight:bold;
+
+}
+#timeline,#timeline1,#timeline2{
+    padding-top: 13%;
+    margin-top: -10%;
+
+}
+span#undrl{
+
+text-decoration:underline;
+
+}
+
+.floated-content {
+    position: relative;
+
+    float: left;
+
+padding-left:5%;
+padding-right:5%;
+margin-top: 10%;
+
+ color:#B46D33;
+    font-family:Georgia;
+    font-size: 16px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,7 +7,7 @@
 
 <h4><span id="sub-head">If you can't do great things, do small things in a great way - That's what Content Marketing requires. </span></h4>
 
-<%= image_tag 'about/Content-marketing-inside-image.png' %>
+<%= image_tag 'about/Content-marketing-inside-image.png' , class: "img-responsive" %>
 <p>In a world of comments, likes, shares, and exciting videos, it can be entirely disheartening to organizations that aren't in that mood in their respective industry. Indeed, even regardless of the absence of sheer excitement, organizations are very keen in finding better content to keep their substance crisp and alluring to potential clients. </p>
 <p>While,it, as a rule requires more innovativeness to advertise a normally unappealing item or administration, it is not inconceivable.</p>
 <p><span id="sub-head"><b>SMALL PIECE OF ADVICE:</b></span> One approach to be important to your gathering of people without doing an over the top measure of work or changing your arrangement, is to advise your crowd. Since you might be one of only a couple locales out there, you can now turn into an industry master to the general population. Clients in our innovative time love significant information and profitable bits of knowledge. Outlines, info graphics, pictures, and recordings are all approaches to outline your information in an engaging way. Another smart way can be, frame a good storyline around your product/services to give an interesting curve to it. In a nutshell, your content is prone to draw in clients and inspire them to impart this data to others only if it’s relevant and catchy.</p>
@@ -19,6 +19,7 @@
 <p>2.) Watch the clock. Distinctive commercial ventures have diverse times of day when it's best to share data and improve see.</p>
 <p>3.) Don't sit tight for others to share your material. Take your own particular material, and post it on different stages.</p>
 <p>Regardless of whether you think your industry is energizing, with awesome and pertinent promoting, your organization can have mind boggling results. Be significant and amped up for your item or administration. Streamline your SEO. Make the substance shareable. These things will help your group of onlookers associate with you and your item</p>
+
 
 
 <a href="/blogs" class="btn btn-default">Go to blogs</a>
@@ -65,17 +66,19 @@ color:#978F89;
 }
 
 .floated-content {
-    position: relative;
-
-    float: left;
+position: relative;
+width:100%;
+float: left;
 
 padding-left: 5%;
 padding-right:5%;
 margin-top: 10%;
- color:#B46D33;
-    font-family:Georgia;
-    font-size: 16px;
+color:#B46D33;
+font-family:Georgia;
+font-size: 16px;
 }
+
+
 
 </style>
 

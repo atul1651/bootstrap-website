@@ -1,33 +1,17 @@
 
-
-
 <html>
+<div class="row">
+<div class="col-sm-12">
 <div class="floated-content">
-
 <p>Thank for your interest in DIGIMERC SOLUTIONS ,we have received your feedback and we will back to you soon.</p>
 
-<a href="/home" class="btn btn-default">Home</a>
+<a href="/home" class="btn btn-warning">Home</a>
       </div>
-      
+      </div>
+</div>
 
 </body>
 </html>
-
-
-------------------------------------------------
-
-
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(3000);
-		});
-		});
-    </script>
-
-
-
 
 
 <style>

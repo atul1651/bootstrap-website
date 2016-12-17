@@ -5,8 +5,11 @@
 </head>
 
 
+<div class="row">
+<div class="col-sm-12">
+<div class="floated-content">
 
-      <div class="floated-content"><h3><span id="sub-head">ORM - Online Reputation Management</span></h3>
+<h3>ORM - Online Reputation Management</h3>
 <p>
 Brand is worthless if it doesn't connect with the right audiences in a relevant way, and, when you are thinking to showcase your relevant presence in today's online society, then nothing stays hidden for too long. 
 </p>
@@ -20,28 +23,15 @@ In a business, reputation is everything, and that's where we come in. Honesty is
 We would screen the online pulse for your brand, deal with the content to support you and in the long run,induce positive sentiments. The thought is to offset the negative impressions; amplify and highlight the positive encounters which will,in the long run advance positive brand review. The effort we put in will be honest and transparent, all you have to do is to trust us with little amount of patience.</p> 
 <p>It’s very fortunate that social media gives us a chance to build great online reputation relatively fast. Not at all like print or outdoor media, the internet is constant and it doesn't overlook. So if social media is a part of your business strategy, it's important to make sure it's working for you and not against you.</p>
       </div>
-      <!-- ends floated content -->
-      <!-- sidebar -->
-     
-      <!-- ENDS sidebar -->
     </div>
-    <!--  page content-->
-  </div>
+
+
 </div>
-<!-- ENDS MAIN -->
+
 
 </body>
 </html>
 
-
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(2000);
-		});
-		});
-    </script>
 
 <style>
 

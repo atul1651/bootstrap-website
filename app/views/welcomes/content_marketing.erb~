@@ -4,9 +4,11 @@
 <meta name="description" lang="en" content="Content marketing is a commitment, not a campaign. Digimerc creates an engaging content for your product/services. Since the entire social media today is very much content driven, we make sure we provide the right content for the right audiences.">
 </head>
 
+<div class="row">
+<div class="col-sm-12">
+<div class="floated-content">
 
-
-      <div class="floated-content"><h3><span id="sub-head">CONTENT MARKETING</span></h3>
+<h3>CONTENT MARKETING</h3>
 <p>"Write it simple.</p>
 <p>Write it Memorable.</p>
 <p> Write it inviting to look at.</p>
@@ -17,28 +19,15 @@
 <p>When whosoever reads your content and says - "This was written specifically for me!". Trust us your content has won the battle for your product or services because we are very well aware of the fact that Google only loves your content, when everyone else loves your first.</p>
 <p>All we do is just tell your true story really well because marketing is no longer about the stuff that you make, but about the stories you tell.</p>
       </div>
-      <!-- ends floated content -->
-      <!-- sidebar -->
-      
-      <!-- ENDS sidebar -->
+     
     </div>
-    <!--  page content-->
+    </div>
 
 
-<!-- ENDS MAIN -->
+
 
 </body>
 </html>
-
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(2000);
-		});
-		});
-    </script>
-
 
 <style>
 span#sub-head{

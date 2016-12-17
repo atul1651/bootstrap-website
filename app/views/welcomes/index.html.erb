@@ -1,14 +1,14 @@
 <html>
 <div id="index">
 
-<p id="notice"><%= notice %></p>
+<!--<p id="notice"><%= notice %></p>-->
 
 <h4>List of contacts and feedbacks</h4>
-
-<table border="1">
+<div class="table-responsive">
+<table class=" table table-bordered">
   <thead>
     <tr>
-       <th>Sr.No</th>
+       <b><th>Sr.No</th></b>
       <th>Name1</th>
       <th>Email1</th>
       <th>Services</th>
@@ -36,9 +36,9 @@
         <td><%= welcome.created_at.strftime(" %d %B %Y, %I:%M %p") %></td>
 
 
-        <td><%= link_to 'Show', welcome %></td>
+        <td><%= link_to 'Show', welcome,:class=>'btn btn-info' %></td>
 
-        <td><%= link_to 'Destroy', welcome, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', welcome, method: :delete, data: { confirm: 'Are you sure?' },:class=>'btn btn-danger' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -57,7 +57,7 @@
 #index{
 
 padding-top:10%;
-color:white;
+color:#B46D33;
 
 
 }

@@ -1,390 +1,213 @@
 
+<html>
 <head>
+
 <title>Digital Marketing Company</title>
 <meta name="description" lang="en" content="Digimerc is a Creative Digital Marketing Company, with offerings such as SEO, SMM, Web Development, Content Marketing and ORM services ">
 </head>
-
-
-
-
-<div id="black-page">
-
-
-</div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-    <script>
-    
-
- /*$(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div#black-page').fadeOut(0, function(){
-                $(this).slideDown(3000);
-            });
-
-        });*/
-
-
-
-
-    </script>
-
-
-
-
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div#polina').fadeOut(0, function(){
-                $(this).slideDown(3000);
-		});
-		});
-    </script>
-
-
-
-
-<!-----------------------------------------fade in on scroll------------------------------------------------>
-
-<script>
-$(window).on("load",function() {
-  $(window).scroll(function() {
-    $("div#abt,div.col-md-4,section#team.bg-light-gray,section#contact").each(function() {
-      /* Check the location of each desired element */
-      var objectBottom = $(this).offset().top + ($(this).outerHeight()/5);
-      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-      
-      /* If the element is completely within bounds of the window, fade it in */
-      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
-      } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
-      }
-    });
-  }); $(window).scroll(); //invoke scroll-handler on page-load
-});
-
-
-</script>
-<!---------------------------------------------------------------------------------------------------------->
-<style>
-
-#black-page{
-min-width:100%;
-background:black;
-min-height:100%;
-}
-
-</style>
-
-
-
-<!---------------------------------------------video---------------------------------------------------->
-<html>
-<body>
-
-<div id="video">
+  <div id="video"  class="embed-responsive embed-responsive-16by9">
 <video autoplay loop poster="polina.jpg" id="bgvid" width="100%" height="100%" >
-    <source src="v/M18.webm" type="video/webm" width="100%" height="100%">
-
+    <source  class="embed-responsive-item" src="v/people1.webm" type="video/webm" >
+<h2>Digimerc solutions</h2>
 </video>
-
-
-<div id="polina">
-
-<h1>"Investing in a Digital media strategy is one of the best things an organisation can think of."</h1>
-
+</div>
+<div class="container text-center">    
+   <span class="text">    
+  <h3>What We Do</h3><br>
+Digital Media is here. It's not going away, not a passing fad. So be where your customers are in social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media,being digital is the only platform in human history which allows people to really maintain rich connections with much larger number of people. As a social media marketing agency, Digimerc has a clear vision about the science behind what makes something shareable and has a smart way to implement the same. <%= link_to '<i class="fa fa-plus-square-o"style="font-size:20px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcomes',:action=>'about' %>
+</span>
+<div class="container text-center">    
+   
+  <h3>Services</h3><br>
 </div>
 
+  <div class="row">
 
-<style>
-
-body {
-  margin: 0;
-  background: #000; 
-}
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-.stopfade { 
-   opacity: .5;
-}
-
-#polina { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  color:white;
-  font-size:50px;
-  text-align:center;
-  color: silver;
-  padding: 2rem;
-  width: 100%;
-margin-top:-60%;
-  float: right;
-  font-size: 1.2rem;
-}
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-
-
-</style>
-
-
-
-
-
-</body>
-<html>
-
-
-<style>
-
-video#bgvid { 
-
-    margin-top:25%;
-    position:relative;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height:100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-margin-bottom:-25%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
-</style>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" class="index">
-
-  
-
-<!----------------------------------------slider---------------------------------------------------->
-
-
-    <section id="services">
-
-
-        <div class="container">
-            <div class="row">
-<div id="abt">
-<div class="abt-heading">  <h2 class="section-heading">About</h2></div>
-Digital Media is here. It's not going away, not a passing fad. So be where your customers are in social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media,being digital is the only platform in human history which allows people to really maintain rich connections with much larger number of people. As a social media marketing agency, Digimerc has a clear vision about the science behind what makes something shareable and has a smart way to implement the same. <%= link_to '<i class="fa fa-plus-square-o"style="font-size:20px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcomes',:action=>'about' %> </div>
-
-
-
-
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <!-- class="section-subheading text-muted">Following are</h3>-->
-                </div>
-            </div>
-
-
-
-
-            <div class="row text-center">
-				<div class="col-md-4">
-
-				<div class="hovereffect">
+    <div class="col-sm-4">
+     <div class="hovereffect">
 		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
 				<a href="/seo"><h2>SEO</h2>
     <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
 				</div>
-				</div>
-
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-				<img class="img-responsive" src="SMM-1.png" width="100%" height="100%" alt="smm" title="smm">
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/smm"><h2>SMM</h2>
-				<p> "Do social media not to impress people but to impact people."</p>
-				 </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
-				</div>
-				</div>
-
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-				<img class="img-responsive" src="webdevelopment.jpg" width="100%" height="100%" alt="web development" title="web development">
+				</div>   
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/web_development"><h2>WEB DEVELOPMENT</h2>
-		<p> “Good web design is all about making other developers feel like idiots because that idea wasn't theirs.”</p>
-				 </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
-				</div>
-
-				</div>
-
-		</div>
-
-
-
-            <div class="row text-center">
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-				<img class="img-responsive" src="Content-marketing1.png" width="100%" height="100%" alt="Content marketing" title="Content marketing">
+				</div> 
+    </div>
+  </div>
+<div class="row">
+    <div class="col-sm-4">
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/content_marketing"><h2>CONTENT MARKETING</h2>
-				<p> “Showcase SMART content and you'll earn the right to promote your product, content being the atomic particle of all Digital marketing.”</p>
-				 </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
 				</div>
-
-				</div>
-
-
-
-
-				<div class="col-md-4">
-				<div class="hovereffect">
-				<img class="img-responsive"  src="ORM1.png" width="100%" height="100%" alt="ORM" title="ORM">
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/orm"><h2>ORM</h2>
-<p>“Do not leave your reputation to chance or gossip; it is your life's artwork, and you must craft it, hone it, and display it with the care of an artist.”</p> </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
-				</div>
-
-				</div>
-
-
-				<div class="col-md-4">
-		 <%= link_to "/contact" do %>
-				<%= image_tag 'about/plus.png',:title=>"more",:alt=>"more"%>
-				<% end %>
-				</div>
-			</div>
-    </section>
-
-
-
-
-    <section id="services">
-
-
-        <div class="container">
-            <div class="row">
-
-
-
-
-
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">BLOGS</h2>
-
-                </div>
-            </div>
-
-
-
-
-            <div class="row text-center">
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-		<img class="img-responsive"  src="content marketing outside.png" width="100%" height="100%" alt="content marketing outside" title="content marketing outside">
+				</div>   
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/if_you_can_not_do_great_things_do_small_things_in_great_way_that_is_what_content_marketing_requires"><h2></h2>
-    <p>If you can't do great things, do small things in a great way - That's what Content Marketing requires. </p> </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
-				</div>
-				</div>
-
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-				<img class="img-responsive" src="myth-of-digital-marketing.png" width="100%" height="100%" alt="myth of digital marketing" title="myth of digital marketing">
+				</div>  
+    </div>
+  </div>
+<div class="row">
+    <div class="col-sm-4">
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/most_small_business_entrepreneurs_bear_some_digital_marketing_myths_in_their_minds"><h2></h2>
-				<p> Most Small-Business Entrepreneurs bear some Digital Marketing Myths in their minds</p>
-				 </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
 				</div>
-				</div>
-
-				<div class="col-md-4">
-
-				<div class="hovereffect">
-				<img class="img-responsive" src="trending-now-1.png" width="100%" height="100%" alt="trending now" title="trending now">
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
 				<div class="overlay">
-				<a href="/are_you_excited_about_what_is_trending_hot_on_social_media"><h2></h2>
-		<p> Are you excited about what’s trending HOT on Social Media?</p>
-				 </a>
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>    
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>  
+    </div>
+  </div>
+
+</div>
+
+<div class="container text-center">    
+   
+  <h3>Blogs</h3><br>
+
+
+
+  <div class="row">
+
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
 				</div>
-
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
-
+				</div>   
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
 				</div>
+				</div> 
+    </div>
+  </div>
+<div class="row">
+    <div class="col-sm-4">
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>   
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>  
+    </div>
+  </div>
+<div class="row">
+    <div class="col-sm-4">
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>    
+    </div>
+    <div class="col-sm-4">
+     <div class="hovereffect">
+		<img class="img-responsive"  src="seo-1.png" width="100%" height="100%" alt="seo" title="seo">
+				<div class="overlay">
+				<a href="/seo"><h2>SEO</h2>
+    <p> “You can't rest on your #1 ranking - because the guy at #2 isn't resting. He's still improving hissite.”</p> </a>
+				</div>
+				</div>  
+    </div>
+  </div>
 
-
-
-
-
-</section>
+</div>
 
 
     <!-- Team Section -->
@@ -500,120 +323,31 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
   
 
 
-        </html>
-       
-
-<style>
-
-form#new_welcome.new_welcome{
-
-
-margin-top:200px;
-
-
-}
-</style>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-</body>
-
 </html>
 
 <style>
+.img-responsive{
 
-section#contact .form-group textarea.form-control{
-
-    height: 150px;
+display: block;
+max-width: 100%;
+height: auto;
+margin-bottom: 3%;
 
 
 }
 
-select#welcome_submission_type{
 
-text-align:center;
+h2.section-heading{
 
-height: 63px;
-width: 100%;
+margin-top:0px;
 
 }
-/*section#team.bg-light-gray,section#contact
-{
-
- background-color: lightgreen;
+.container {
+    width: 100%;
 }
-
-
-span#link-to-about{
-
-
-color:red;
-
-
-}*/
-
-div.col-sm-4 a{
-
-outline:none;
-}
-div.abt-heading{
-
-text-align:center;
-font-size: 40px;
-
-}
-div#abt{
-margin-top: -15%;
-color:#B46D33;
-padding-left:5%;
-padding-right:5%;
-
-margin-bottom:90px;
-
-font-family:Georgia;
-font-size: 16px;
-}
-
-.text-muted {
-    color: white;
-}
-
-.col-md-4 {
-
-    color: white;
-padding:1%;
-
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-
- /*background-color: lightgreen;*/
-
-}
-
-
-
 .hovereffect {
-  width: 400px;
-  height: 400px;
+width:100%;
+height:100%;
   float: left;
   overflow: hidden;
   position: relative;
@@ -711,8 +445,11 @@ font-size:25px;
 
 }
 
+span.text{
+color:#B46D33;
+
+}
+
+
+
 </style>
-
-
-
-

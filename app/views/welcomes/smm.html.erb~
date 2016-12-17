@@ -4,9 +4,10 @@
 <meta name="description" lang="en" content="Digimerc is one of the best social media marketing companies in Pune .We provide one stop SMM solution.">
 </head>
 
-
-
-      <div class="floated-content"><h3><span id="sub-head">SMM - Social Media Marketing</span></h3>
+<div class="row">
+<div class="col-sm-12">
+<div class="floated-content">
+<h3>SMM - Social Media Marketing</h3>
 <p>
 Today's marketing is really about sending out the right smoke signals to attract your tribe. This signal would be incomplete if you ignore the relevant social media platform in your marketing strategy. It would be like opening a new business and not telling anyone.
 </p>
@@ -28,21 +29,13 @@ We believe in working closely together to solve our clients’ business problems
     </div>
     <!--  page content-->
   </div>
-</div>
+
 <!-- ENDS MAIN -->
 
 </body>
 </html>
 
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(2000);
-		});
-		});
-    </script>
-
+   
 <style>
 span#sub-head{
 

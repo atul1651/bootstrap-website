@@ -1,0 +1,47 @@
+div#my-map-canvas{
+padding-top:7%;
+padding-bottom:3%;
+padding-left:2%;
+padding-right:2%;
+
+
+}
+section#contact .section-heading{
+margin-top:10%;
+}
+.floated-content {
+    position: relative;
+
+font-family:Georgia;
+    font-size: 16px;
+}
+
+section#contact .form-group textarea.form-control{
+
+   height: 150px;
+}
+
+
+select#welcome_submission_type{
+
+text-align:center;
+height: 63px;
+width: 100%;
+
+}
+
+div#address {
+    color: #FFF;
+    font-size: 15px;
+}
+#map {
+margin-top:5%;
+
+    }
+div#address{
+
+color:white;
+}
+ 
+
+

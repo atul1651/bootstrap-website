@@ -1,0 +1,142 @@
+
+<html>
+<head>
+<title>Locations | Digimerc Solutions</title>
+<meta name="description" lang="en" content="Digimerc solution is one of the leading digital marketing company. So we offer SEO Analyst, Web Developer, and Content Writer in Pune.">
+</head>
+<div class="floated-content"><h3><span id="sub-head">Locations</span></h3>
+
+<table border="1">
+
+<tr>
+<td align="center" WIDTH=300><p><%= link_to 'NAGPUR',:controller=>'welcomes',:action=>'nagpur'%></p></td>
+<td align="center" WIDTH=300><p><%= link_to 'BHILAI',:controller=>'welcomes',:action=>'bhilai'%></p></td>
+</tr>
+
+<tr>
+<td align="center" WIDTH=200><p><%= link_to 'KOLHAPUR',:controller=>'welcomes',:action=>'kolhapur'%></p></td>
+<td align="center" WIDTH=200><p><%= link_to 'AMRAVATI',:controller=>'welcomes',:action=>'amravati'%></p></td>
+</tr>
+
+<tr>
+<td align="center" WIDTH=200><p><%= link_to 'SANGLI',:controller=>'welcomes',:action=>'sangli'%></p></td>
+<td align="center" WIDTH=200><p><%= link_to 'SATARA',:controller=>'welcomes',:action=>'satara'%></p></td>
+</tr>
+
+<tr>
+<td align="center" WIDTH=200><p><%= link_to 'AKOLA',:controller=>'welcomes',:action=>'akola'%></p></td>
+<td align="center" WIDTH=200><p><%= link_to 'WARDHA',:controller=>'welcomes',:action=>'wardha'%></p></td>
+</tr>
+
+
+
+</table>
+
+      </div>
+<br>
+      <!-- ends floated content -->
+      <!-- sidebar -->
+      <!--<aside id="sidebar">
+        <ul><h5>Form of enquiry</h5>
+     
+         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
+      <button type="submit" class="subscribe-submit">Subscribe</button>
+
+        
+     
+        </ul>
+        <em id="corner"></em> </aside>-->
+      <!-- ENDS sidebar -->
+    </div>
+    <!--  page content-->
+  </div>
+</div>
+<!-- ENDS MAIN -->
+
+</body>
+</html>
+
+
+------------------------------------------------
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+
+
+
+
+
+<style>
+
+
+table tr:nth-child(odd) td{
+color:white;
+background:#FFFF00 ;
+
+}
+table tr:nth-child(even) td{
+
+color:white;
+background:#58FAD0;
+}
+
+
+span#sub-head{
+
+color:#978F89;
+
+}
+
+span#informa{
+
+color:#978F89;
+font-weight:bold;
+
+}
+#timeline,#timeline1,#timeline2{
+    padding-top: 13%;
+    margin-top: -10%;
+
+}
+span#undrl{
+
+text-decoration:underline;
+
+}
+
+.floated-content {
+    position: relative;
+
+    float: left;
+
+padding-left:5%;
+padding-right:5%;
+margin-top: 10%;
+
+ color:#B46D33;
+    font-family:Georgia;
+    font-size: 16px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

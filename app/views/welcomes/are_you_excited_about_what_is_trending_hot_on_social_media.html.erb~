@@ -6,7 +6,7 @@
 <div class="floated-content">
 
 <h4><span id="sub-head">Are you excited about what’s trending HOT on Social Media?</span></h4>
-<%= image_tag 'about/Trending-now-inside-image.png' %>
+<%= image_tag 'about/Trending-now-inside-image.png', class: "img-responsive" %>
 <p>Like each group or social media manager, one sort of social networking substance you're prone to share is posts that play on what's going on in the world– the patterns of the day, week, or month. To discover content for these posts, large portion of you are presumably swinging to Twitter's Trending Topics that well-disposed little segment on the left-hand side of your program when you visit Twitter.com, and something that can be customized (or not) to what Twitter supposes you'll be most inspired by. </p>
 <p>We concede that trending topics are truly convenient with regards to rousing content, but at the same time it's the same place every other brand is searching for substance thoughts. Exhausting! Today, we have places where you can search for drifting stories to move you. </p>
 <p><span id="sub-head">1.) <b>Google Trends :</b></span> This device has been around for a considerable length of time, yet it's the most needed stage to know the most recent online pattern as it has another method for showing slanting pursuits: a visualizer that permits you to view 1, 2, or up to 25 concurrent drifting hunts – adaptable to show one nation or overall patterns. Watch the patterns flip by and click the one you're keen on to see the Google query items. Then again, you can see the Google Trends Top Charts page and bore down on a particular subject you think your group may discover pertinent. </p>
@@ -15,6 +15,8 @@
 <p><span id="sub-head">4.) <b>Buzzfeed :</b></span> With more than simply charming puppy pictures and spoiler-filled records, Buzzfeed’s pattern segment gives perusers a view at what's prominent all alone webpage (accommodating for rousing popular society related social substance) and in addition what's famous around whatever remains of the web. Now and then, genuine, hard-hitting news stories even appear in the rundown! </p>
 <p><span id="sub-head">5.) <b>Reddit :</b></span> Also a takeoff from the normal Twitter swarm, Reddit is a spot where jokes, news, and fascinating goodies from over the web are collected and positioned by number of individuals who have up(or down) voted the post or remark connected with it. In case need another image to fuel your substance, Reddit is an incredible spot to look. </p>
 <p>So what are you sitting tight for how about we discover what's humming hard on your online networking bed.</p>
+
+<br><%= render :partial => 'plugins1' %><br><br>
 
 <a href="/blogs" class="btn btn-default">Go to blogs</a>
 
@@ -74,16 +76,15 @@ text-decoration:underline;
 
 
 .floated-content {
-    position: relative;
-
-    float: left;
-
+position: relative;
+float: left;
+width:100%;
 padding-left:5%;
 padding-right:5%;
 margin-top: 10%;
- color:#B46D33;
-    font-family:Georgia;
-    font-size: 16px;
+color:#B46D33;
+font-family:Georgia;
+font-size: 16px;
 
 }
 aside{

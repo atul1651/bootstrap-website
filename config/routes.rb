@@ -20,9 +20,28 @@ Rails.application.routes.draw do
 
 #####################################################################################
 
+get '/locations'=>'welcomes#locations'
+########locations##############
+
+get '/nagpur'=>'welcomes#nagpur'
+
+get '/bhilai'=>'welcomes#bhilai'
+
+get '/kolhapur'=>'welcomes#kolhapur'
+
+get '/amravati'=>'welcomes#amravati'
+
+get '/sangli'=>'welcomes#sangli'
+
+get '/satara'=>'welcomes#satara'
+
+get '/akola'=>'welcomes#akola'
+
+get '/wardha'=>'welcomes#wardha'
+###############################
   resources :welcomes
 
-
+get '/clients'=>'welcomes#clients'
 
 get '/error'=>'welcomes#error'
 

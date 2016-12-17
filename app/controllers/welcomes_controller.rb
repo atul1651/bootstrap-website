@@ -1,5 +1,38 @@
 class WelcomesController < ApplicationController
 
+def get_content_to_display
+     #Place code here
+     render :update do |page|
+          page.replace_html "display_ajax", :partial => 'web_page'
+     end
+end
+
+def clients
+
+end
+
+
+def locations
+
+end
+#locations#
+def nagpur
+end
+def bhilai
+end
+def kolhapur
+end
+def amravati
+end
+def sangli
+end
+def satara
+end
+def akola
+end
+def wardha 
+end
+# locations #
 def seo
 
 end

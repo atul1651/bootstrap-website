@@ -5,8 +5,10 @@
 </head>
 
 
-
-      <div class="floated-content"><h3><span id="sub-head">WEB DEVELOPMENT</span></h3>
+<div class="row">
+<div class="col-sm-12">
+<div class="floated-content">
+<h3>WEB DEVELOPMENT</h3>
 <p>
 Your website deserves the best; after all, it is the internet advertising billboard for you and your company. Whether you're ready to start today, or still need some guidance. We'll find the right solution for you.
 </p>
@@ -21,39 +23,22 @@ Website design & website content matters a lot as it speaks about your business 
 content precedes design and design in the absence of content is not design, its decoration.
 </p>
       </div>
-      <!-- ends floated content -->
-      <!-- sidebar -->
-      
-
-     <!--<aside id="sidebar">
-        <ul><h5>Form of enquiry</h5>
-
-
-         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
-      <button type="submit" class="subscribe-submit">Subscribe</button>
+    
 
         
         </ul>
-        </aside>-->
+        </aside>
       <!-- ENDS sidebar -->
     </div>
     <!--  page content-->
   </div>
-</div>
+
 <!-- ENDS MAIN -->
 
 </body>
 </html>
 
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(2000);
-		});
-		});
-    </script>
-
+   
 <style>
 span#sub-head{
 

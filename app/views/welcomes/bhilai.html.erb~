@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Bhilai | Digimerc Solutions</title>
+<meta name="description" lang="en" content="Digimerc solution is one of the leading digital marketing company. So we offer SEO Analyst, Web Developer, and Content Writer in Pune.">
+</head>
+<div class="floated-content"><h3><span id="sub-head">Bhilai</span></h3>
+
+<h6>Page is coming soon......</h6>
+<a href="/locations" class="btn btn-default">Go to list of locations</a>
+
+      </div>
+</html>
+
+
+<style>
+.floated-content {
+    position: relative;
+
+    float: left;
+
+padding-left:5%;
+padding-right:5%;
+margin-top: 10%;
+
+ color:#B46D33;
+    font-family:Georgia;
+    font-size: 16px;
+}
+
+
+
+
+</style>

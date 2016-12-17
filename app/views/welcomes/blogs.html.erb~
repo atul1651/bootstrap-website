@@ -1,13 +1,35 @@
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="ripple.css">
 <title>Blog | Digital Marketing Company</title>
 <meta name="description" lang="en" content="Digimerc is a Digital marketing company which provides all digital marketing services and web development services in India. ">
 </head>
 
+<div class="row">
 
 
+<div class="col-sm-9">
 <div class="floated-content">
-<h4><span id="sub-head">List of blogs :</span></h4>
+
+<h3>CONTENT MARKETING</h3>
+<p>"Write it simple.</p>
+<p>Write it Memorable.</p>
+<p> Write it inviting to look at.</p>
+<p>Write and make it a fun to read."</p> 
+<p>We do work, results of which are far more shareable.</p>
+<p>Because content marketing is a commitment, not a campaign. If you’re interested in marketing your business online, you can’t escape hearing about content marketing. It’s everywhere you look or listen. Even though your online content is meant for a human audience, it must still meet the needs of the search engines. There is content that people desire and seek out AND it is this great content that Google wants to rank well in the search results so those people can find your business. </p>
+<p>Don’t forget that we are in the world where it is all about concrete content and its marketing. We at Digimerc create engaging content, use consumer insights to connect with your customers, build your brand & drive commerce. We research before we set out to create content that hits the nail on the head. That’s when we spread it and we do it just at the right places.</p>
+<p>When whosoever reads your content and says - "This was written specifically for me!". Trust us your content has won the battle for your product or services because we are very well aware of the fact that Google only loves your content, when everyone else loves your first.</p>
+<p>All we do is just tell your true story really well because marketing is no longer about the stuff that you make, but about the stories you tell.</p>
+      </div>
+     
+    </div>
+
+
+<div class="col-sm-3">
+<div class="floated-content">
+<div></div>
+<h4>List of blogs :</h4>
 
 <p>--> <%= link_to 'If you can not do great things,do small things in great way - that is what content marketing requires.',:controller=>'welcomes',:action=>'if_you_can_not_do_great_things_do_small_things_in_great_way_that_is_what_content_marketing_requires'%></p>
 
@@ -15,77 +37,13 @@
 
 <p>--> <%= link_to 'Are you excited about what is trending HOT on Social Media?',:controller=>'welcomes',:action=>'are_you_excited_about_what_is_trending_hot_on_social_media'%></p>
 
-
-      </div>
-      <!-- ends floated content -->
-      <!-- sidebar -->
-      <!--<aside id="sidebar">
-        <ul><h5>Form of enquiry</h5>
-     
-         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
-      <button type="submit" class="subscribe-submit">Subscribe</button>
-
-        
-     
-        </ul>
-        <em id="corner"></em>
-
- </aside>-->
-      <!-- ENDS sidebar -->
-    </div>
-    <!--  page content-->
-  </div>
 </div>
-<!-- ENDS MAIN -->
+</div>
 
+</div>
+    
 </body>
 </html>
-
-
-------------------------------------------------
-
-
-    <script>
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('div.floated-content').fadeOut(0, function(){
-                $(this).slideDown(2000);
-		});
-		});
-    </script>
-
-
---------------------------------------------==----
-
-
-<style>
-
-
-span#sub-head{
-
-color:#978F89;
-
-}
-
-div.floated-content {
-    position: relative;
-    float: left;
-    padding-left:5%;
-    padding-right:5%;
-    margin-top: 10%;
-    color:#B46D33;
-    font-family:Georgia;
-    font-size: 16px;
-
-}
-
-
-</style>
-
-
-
-
-
 
 
 

@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Digimerc Solutions</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+
+<script>
+
+
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
+</script>
 <link rel="icon" type="image/png" href="/img/FAVICON(1).png">
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -15,7 +31,7 @@
 <meta name="keywords" content="Digital Marketing Company, Customized Social Media Marketing,SEO Company in Pune,Web Development Company, Social media marketing company, Content marketing comapny,Search engine optimization company in pune,Social media services company, 360 degree marketing agency, Affordable Digital marketing, Creative digital marketing, Latest digital marketing agency, One stop marketing agency"/>
 <meta name="robots" content="index, follow">
 </head>
-<body>
+<body oncontextmenu="return false;" oncopy="return false;" onselect="return false"  unselectable="on">
 
 
 
@@ -35,5 +51,64 @@
 <%= render :partial=>"layouts/header" %></td> 
 <%= yield %>
 <%= render :partial=>"layouts/footer" %></td> 
+
+<%- if params[:controller] == 'welcomes' %>
+  <body data-no-turbolink="true">
+<%- else %>
+  <body data-no-turbolink="false">
+<%- end %>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow8.js"></script>-->
+
 </body>
 </html>
+
+<style>
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(ajax-loader.gif) center no-repeat #fff;
+        content: "Email address: ";
+}
+
+.floated-content {
+    position: relative;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+    color: #B46D33;
+    font-family: Georgia;
+    font-size: 16px;
+    top: 60px;
+   bottom: 60px;
+}
+
+body{
+
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+
+</style>
+
+
+

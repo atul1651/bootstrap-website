@@ -1,426 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Digimerc Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    nav.navbar.navbar-inverse{
+
+   width:100%;
+position:fixed;
+z-index:10000;
+   }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/"><%= image_tag "about/LOGOsmall.png",:width => 190, :height => 30,:alt=>"Digital Marketing Company",:title=>"Digimerc Solutions" %></a>
+    </div>
    
+      <ul class="nav navbar-nav navbar-right">
+ <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><!--<%= link_to "Home",:controller=>'welcomes',:action=>'home' %>--><a href="/">HOME</a></li>
+        <li><!--<%= link_to 'About',:controller=>'welcomes',:action=>'about' %>--><a href="/about">ABOUT</a></li>
+        <!---<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/seo">SEO</a></li>
+          <li><a href="/smm">SMM</a></li>
+          <li><a href="/web_development">WEB DEVELOPMENT</a></li>
+        <li><a href="/content_marketing">CONTENT MARKETING</a></li>
+	<li><a href="/orm">ORM</a></li>
+        </ul>
+      </li>-->
+
+          <li><a href="/blogs">BLOGS</a></li>
+          <li>	<a href="/careers">CAREERS</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </div>
+
 <html>
-
-<div id="head-section">
-
-
-
-	  <div id="logo"><a href="/home"><%= image_tag "about/LOGO.png",:width => 240, :height => 100,:alt=>"Digital Marketing Company",:title=>"Digimerc Solutions" %></a></div>
-
-	    <nav> <label for="drop" class="toggle">MENU</label>
-
-	  <input type="checkbox" id="drop" />
-
-	  <ul class="menu">
-
-	    <li><a href="/home">HOME</a></li>
-	    <li><a href="/about">ABOUT</a></li>
-
-	    <li>
-
-	      <!-- First Tier Drop Down -->
-
-	      <label for="drop-1" class="toggle">SERVICES +</label>
-
-	      <a href="#">SERVICE</a>
-
-	      <input type="checkbox" id="drop-1"/>
-
-	      <ul>
-
-	        <li><a href="/seo">SEO</a></li>
-
-	        <li><a href="/smm">SMM</a></li>
-
-	        <li><a href="/web_development">WEB_DEVELOPMENT</a></li>
-
-                 <li><a href="/content_marketing">CONTENT_MARKETING</a></li>
-
-	        <li><a href="/orm">ORM</a></li>
-
-	      </ul>
-
-	    </li>
-
-	    <li>
-
-	       
-
-	      <!-- First Tier Drop Down -->
-
-	      <!--<label for="drop-2" class="toggle">Portfolio +</label>
-
-	      <a href="#">Portfolio</a>
-
-	      <input type="checkbox" id="drop-2"/>
-
-	      <ul>
-
-	        <li><a href="#">Portfolio 1</a></li>
-
-	        <li><a href="#">Portfolio 2</a></li>
-
-	        <li>-->
-
-	           
-
-	          <!-- Second Tier Drop Down -->
-
-	          <!--<label for="drop-3" class="toggle">Works +</label>
-
-	          <a href="#">Works</a>
-
-	          <input type="checkbox" id="drop-3"/>
-
-	          <ul>
-
-	            <li><a href="#">HTML/CSS</a></li>
-
-	            <li><a href="#">jQuery</a></li>
-
-	            <li><a href="#">Python</a></li>
-
-	          </ul>
-
-	        </li>
-
-	      </ul>
-
-	    </li>-->
-
-	    <li><a href="/blogs">BLOGS</a></li>
-
-	    <li><a href="/careers">CAREERS</a></li>
-
-	    <li><a href="/contact">CONTACT</a></li>
-
-
-
-	  </ul>
-
-	</nav>
-
-</div>
-</html>
-
-
-
-<style>
-
-
-div#logo{
-
-outline:none;
-}
-div#head-section{
-
-border-bottom:1px solid #EBE5E5;
-background:black;
-z-index: 10000;
-position: fixed;
-width: 100%;
-
-
-}
-
-nav {
-
-	  margin: 0;
-
-	  padding-top: 10px;
-          padding-bottom:10px;
-
-	  /*background-color: #254441;*/
-
-	}
-	 
-
-	#logo {
-
-	  display: block;
-
-	  padding: 0 30px;
-
-	  float: left;
-
-	  font-size: 20px;
-
-	  line-height: 60px;
-
-	}
-
-	 
-
-	nav:after {
-
-	  content: "";
-
-	  display: table;
-
-	  clear: both;
-
-	}
-
-	 
-
-	nav ul {
-
-	  float: right;
-
-	  padding: 20px;
-
-	  margin: 0;
-
-	  list-style: none;
-
-	  position: relative;
-
-	}
-
-	 
-
-	nav ul li {
-
-	  margin: 0px;
-
-	  display: inline-block;
-
-	  float: left;
-
-	 background-color: black;
-
-	}
-
-	 
-
-	nav a {
-
-	  display: block;
-
-	  padding: 0 20px;
-
-          color:#DAD6D3;
-
-	  font-size: 14px;
-
-	  line-height: 60px;
-
-	  text-decoration: none;
-
-	}
-
-	 
-
-	nav ul li ul li:hover { background: #000000; }
-
-	 
-
-	nav a:hover { background-color: orange; }
-
-	 
-
-	nav ul ul {
-
-	  display: none;
-
-	  position: absolute;
-
-	  top: 60px;
-
-	}
-
-	 
-
-	nav ul li:hover > ul { display: inherit; }
-
-	 
-
-	nav ul ul li {
-
-	  /*width: 170px;*/
-
-	  float: none;
-
-	  display: list-item;
-
-	  position: relative;
-
-	}
-
-	 
-	nav ul ul ul li {
-
-	  position: relative;
-
-	  top: -60px;
-
-	  left: 170px;
-
-	}
-
-	 
-
-	li > a:after { content: ' +'; }
-
-	.toggle, [id^=drop] {
-
-	 display: none;
-
-	}
-
-	li > a:only-child:after { content: ''; }
-
-
-
-@media all and (max-width : 768px) {
-
-	 
-
-	#logo {
-
-	  display: block;
-
-	  padding: 0;
-
-	  width: 100%;
-
-	  text-align: center;
-
-	  float: none;
-
-	}
-
-	 
-
-	nav { margin: 0;
-
- }
-
-	
-	.toggle + a,
-
-	 .menu { display: none;
-
-
-
-}
-
-	 
-
-	.toggle {
-
-	  display: block;
-
-	  /*background-color: #254441;*/
-
-	  padding: 0 20px;
-
-	  color: #FFF;
-
-	  font-size: 14px;
-
-	  line-height: 60px;
-
-	  text-decoration: none;
-
-	  border: none;
-
-	}
-
-	 
-
-	.toggle:hover { background-color: #000000; }
-
-	 
-	[id^=drop]:checked + ul { display: block; }
-
-	 
-
-	nav ul li {
-
-	  display: block;
-
-	  width: 100%;
-
-	}
-
-	 
-
-	nav ul ul .toggle,
-
-	 nav ul ul a { padding: 0 40px; }
-
-	 
-
-	nav ul ul ul a { padding: 0 80px; }
-
-	 
-
-	nav a:hover,
-
-	 nav ul ul ul a { background-color: #000000; }
-
-	 
-
-	nav ul li ul li .toggle,
-
-	 nav ul ul a { background-color: #212121; }
-
-	 
-
-	nav ul ul {
-
-	  float: none;
-
-	  position: static;
-
-	  color: #ffffff;
-
-	}
-
-	 
-
-	nav ul ul li:hover > ul,
-
-	nav ul li:hover > ul { display: none; }
-
-	 
-
-	nav ul ul li {
-
-	  display: block;
-
-	  width: 100%;
-
-	}
-
-	 
-
-	nav ul ul ul li { position: static;
-
-	 
-
-	}
-
-	}
-
-	 
-
-	@media all and (max-width : 330px) {
-
-	 
-
-	nav ul li {
-
-	  display: block;
-
-	  width: 94%;
-
-	}
-
-	 
-
-	}
-
-
-</style>

@@ -1,5 +1,7 @@
 <html>
-<div id="show">
+<div class="row">
+<div class="col-md-12">
+<div class="floated-content">
 
 <p id="notice"><%= notice %></p>
 <% if @welcome.email1.present? %>
@@ -51,18 +53,12 @@
   <strong>Email2:</strong>
   <%= @welcome.email2 %>
 </p>
-<%= link_to 'Back', welcomes1_path %>
+<%= link_to 'Back', welcomes1_path ,:class=>'btn btn-danger' %>
 <% end %>
 
-
+</div>
+</div>
+</div>
 
 </html>
 
-<style>
-#show{
-color:white;
-margin-top: 10%;
-
-
-}
-</style>
